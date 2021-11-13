@@ -1,0 +1,348 @@
+/* TODO(you): Write the CSS to finish the assignment! */
+.container{
+    height: 80px;
+    width: 700px;   
+    padding:auto;
+    margin:auto;
+    color:  #222222;
+    border: 1px #ccc solid;
+}
+.row1 { 
+    
+    background-color: white;
+    font-family:  'Helvetica','sans-serif';
+}
+
+.box_item1{
+    display:flex;
+    border: 1px;
+    border-color: #ccc;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.WPR{
+    
+    font-size: 32px;
+    font-weight: bold;
+    color: #ee3322;
+}
+
+.mern {
+    border-radius: 100%;
+    background-color: #ffee00 ;
+    font-weight: bold;
+    text-align: center;
+    transform: rotate(-30deg);
+    width: 50px;
+    height: 50px;
+    padding: 1rem;
+    margin-left: 10px;
+    
+    box-sizing: border-box;
+    
+}
+
+.box_mern{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   
+}
+#quiz-name {
+    height: 443px;
+    width: 700px;   
+    padding:auto;
+    margin:auto;
+    position: relative;
+    
+}
+.html_quiz{
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    
+    max-width: 75%;
+  
+    
+}
+.quiz{
+    background-color: rgba(255, 255, 255, 0.9);
+    font-family: 'Pangolin', 'Trebuchet MS', cursive;
+    font-size: 60px;
+    color: black;
+    padding: 10px;
+}
+.author {
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Proxima Nova','Helvetica',
+    'Arial',sans-serif;
+}
+
+
+#introduction {
+    height: 80px;
+    width: 700px;   
+    padding:auto;
+    margin:auto;
+    color:  #222222;
+    font-size: 18px;
+    font-family: 'Proxima Nova','Helvetica',
+    'Arial',sans-serif;
+    margin-top: 36px;
+}
+
+.quiz_box {
+background-color: #f1f1f1;
+text-align: center;
+padding-top: 36px;
+padding-bottom: 18px;
+margin-bottom: 50px;
+}
+
+#starting_point{
+    margin-top: 18px;
+    color: white;
+    background-color: #2196F3;
+    padding: 18px 10px 18px 10px;
+    border: none;
+    font-size: 16px;
+}
+#starting_point:hover {
+    margin-top: 18px;
+    color: white;
+    background-color: #0d8bf2;
+    padding: 18px 10px 18px 10px;
+    border: none;
+    
+}
+
+
+#attempt-quiz{
+    width: 700px;   
+    padding:auto;
+    margin:auto;
+    color:  #222222;
+    font-size: 18px;
+    font-family: 'Proxima Nova','Helvetica',
+    'Arial',sans-serif;
+
+}
+
+.no-question {
+    margin-bottom: 30px;
+}
+
+.no-ques{
+    margin-top: 30px;
+}
+.options {
+  
+    background-color: white;
+    width: 700px;
+
+   
+} 
+
+    
+.checked-option{
+    background-color: #ddd!important;
+    
+}
+
+
+.ans{
+    margin-bottom: 1px;
+    background-color: #f1f1f1;
+    padding: 15px;
+    
+    
+}
+
+.correctAnswers{
+    position: relative;
+    background-color: #d4edda ;
+    
+    
+}
+.correctAnswers::after{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    content: 'Correct answer';
+    color: white;
+    font-size: 14px;
+    background-color: rgba(0,0,0, 0.2) ;
+    padding: 7px;
+    
+
+    
+
+    
+}
+
+.wrongAnswers{
+    position: relative;
+    background-color: #f8d7da  ;
+    
+}
+.wrongAnswers::after{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    content: 'Your answer';
+    color: white;
+    font-size: 14px;
+    background-color: rgba(0,0,0, 0.2) ;
+    padding: 7px;
+    
+
+    
+
+    
+}
+
+
+.unchosenCorrectAnswers{
+    position: relative;
+    background-color: #ddd ;
+    
+}
+.unchosenCorrectAnswers::after{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    content: 'Correct answer';
+    color: white;
+    font-size: 14px;
+    background-color: rgba(0,0,0, 0.2) ;
+    padding: 7px;
+    
+
+    
+
+    
+}
+
+
+
+
+section.introText{
+display: none;
+}
+
+.submitBox{
+    margin-top: 30px;
+    background-color: #f1f1f1;
+    width: 700px;
+    height: 100px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.submit{
+    position: absolute;
+    top: 23px;
+    left: 270px;
+   font-size: 18px;
+    color: white;
+    background-color:#4CAF50 ;
+    padding: 18px 10px 18px 10px;
+    border: none;
+}
+.submit:hover {
+    position: absolute;
+    top: 23px;
+    left: 270px;
+    color: white;
+    background-color: #46a049 ;
+    padding: 18px 10px 18px 10px;
+    border: none;
+    
+}
+.hiddenAuthor{
+    display: none;
+}
+
+.hiddenPage2 {
+    display: none;
+}
+
+.hiddenAttemptQuiz{
+    display: none;
+}
+
+#review-quiz{
+    width: 700px;   
+    padding:auto;
+    margin:auto;
+    color:  #222222;
+    font-size: 18px;
+    font-family: 'Proxima Nova','Helvetica',
+    'Arial',sans-serif;
+
+}
+
+
+.resultContainer{
+    margin-top: 30px;
+    background-color: #f1f1f1;
+    width: 700px;
+    height: 350px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #dcdcdc ;
+    color:  #222222;
+    font-size: 18px;
+    font-family: 'Proxima Nova','Helvetica',
+    'Arial',sans-serif;
+    margin-bottom: 50px;
+}
+
+.tryAgainButton{
+    /* position: absolute;
+    top: 23px;
+    left: 270px;
+    color: white;
+    background-color:#4CAF50 ;
+    padding: 18px 10px 18px 10px;
+    border: none; */
+    margin-top: 18px;
+    color: white;
+    background-color: #2196F3;
+    padding: 18px 10px 18px 10px;
+    border: none;
+    font-size: 16px;
+}
+.tryAgainButton:hover {
+    /* position: absolute;
+    top: 23px;
+    left: 270px;
+    color: white;
+    background-color: #46a049 ;
+    padding: 18px 10px 18px 10px;
+    border: none; */
+    margin-top: 18px;
+    color: white;
+    background-color: #0d8bf2;
+    padding: 18px 10px 18px 10px;
+    border: none;
+}
+input{
+    margin-right: 15px;
+}
+.totalCorrectAnswers{
+    font-size: 24px;
+}
+
+.on-change{
+    background-color: #ddd;
+}
+
+.resultTitle{
+    font-size: 2em;
+}
